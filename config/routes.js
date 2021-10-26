@@ -27,6 +27,10 @@ module.exports.routes = {
   'GET /blocks/identifier/:id': { controller: 'BlockController', action: 'getBlockByIdentifier' },
   'GET /blocks/:from/:count': { controller: 'BlockController', action: 'getMultipleBlocksAfterThreshold' },
 
+  'GET /transactions/latest': { controller: 'TransactionController', action: 'getLatestTransaction' },
+  'GET /transactions/pending': { controller: 'TransactionController', action: 'getPendingTransactions' },
+  'GET /transactions/hash/:hash': { controller: 'TransactionController', action: 'getTransactionByHash' },
+  'GET /transactions/address/:address': { controller: 'TransactionController', action: 'getAddressTxCount' }
 
 
   /***************************************************************************
