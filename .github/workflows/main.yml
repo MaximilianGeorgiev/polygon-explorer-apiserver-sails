@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_MAXIMILIAN_PASSWORD }}
           
     - name: Run server in background
-      run: sails lift &
+      run: node app.js &
           
     - name: Run tests
       run:  npm run test
