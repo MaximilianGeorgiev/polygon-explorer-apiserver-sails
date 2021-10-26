@@ -15,6 +15,6 @@ module.exports = {
             response = JSON.parse(JSON.stringify(web3.utils.fromWei(value)));
         });
 
-        return res.json(response);
+        res.json(response);
     }
 }

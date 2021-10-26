@@ -19,7 +19,13 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'GET /addresses/:address': { controller: 'AddressController', action: 'getAccountBalance' }
+
+  'GET /addresses/:address': { controller: 'AddressController', action: 'getAccountBalance' },
+
+  'GET /blocks/latest': { controller: 'BlockController', action: 'getLatestBlock' },
+  'GET /blocks/pending': { controller: 'BlockController', action: 'getPendingBlocks' },
+  'GET /blocks/identifier/:id': { controller: 'BlockController', action: 'getBlockByIdentifier' },
+  'GET /blocks/:from/:count': { controller: 'BlockController', action: 'getMultipleBlocksAfterThreshold' },
 
 
 
