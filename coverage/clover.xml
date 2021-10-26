@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1635242431751" clover="3.2.0">
+  <project timestamp="1635242431751" name="All files">
+    <metrics statements="108" coveredstatements="30" conditionals="28" coveredconditionals="0" methods="27" coveredmethods="1" elements="163" coveredelements="31" complexity="0" loc="108" ncloc="108" packages="3" files="20" classes="20"/>
+    <package name="polygon-explorer">
+      <metrics statements="16" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/app.js">
+        <metrics statements="16" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="polygon-explorer.api.controllers">
+      <metrics statements="76" coveredstatements="9" conditionals="28" coveredconditionals="0" methods="26" coveredmethods="0"/>
+      <file name="AddressController.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/api/controllers/AddressController.js">
+        <metrics statements="9" coveredstatements="3" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="BlockController.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/api/controllers/BlockController.js">
+        <metrics statements="40" coveredstatements="3" conditionals="15" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="86" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+      </file>
+      <file name="TransactionController.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/api/controllers/TransactionController.js">
+        <metrics statements="27" coveredstatements="3" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="polygon-explorer.config">
+      <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="blueprints.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/blueprints.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="bootstrap.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/bootstrap.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="custom.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/custom.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="datastores.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/datastores.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="globals.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/globals.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="http.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/http.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="i18n.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/i18n.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="local.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/local.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="log.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/log.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="models.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/models.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="policies.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/policies.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="routes.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/routes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="security.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/security.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="session.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/session.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="sockets.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/sockets.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="views.js" path="/home/max/Desktop/repositories/polygon-explorer/polygon-explorer-sails/polygon-explorer/config/views.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

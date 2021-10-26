@@ -40,6 +40,15 @@ module.exports = {
             return res.json("Invalid path.");
         }
 
+        /* if it contains both chars and numbers and doesn't start with 0x (block hash),
+         then it is invalid block number. For example: 1000a
+         */
+        if (searchArgument.match(/^(?=.*[A-Za-z])[A-Za-z\d$@$!%* #+=\(\)\^?&]{3,}$/)) {
+            if (!searchArgument.startsWith('0x')){
+                return res.json("Invalid path.");
+            }
+        }
+
         await web3.eth.getBlock(searchArgument, true, (error, result) => { // TO DO: handle error
         }).then(value => {
             response = JSON.parse(JSON.stringify(value));

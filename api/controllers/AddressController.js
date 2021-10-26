@@ -7,7 +7,7 @@ module.exports = {
 
         const address = req.params.address;
 
-        if (address === null || !address.startsWith('0x')) {
+        if (address === null || !address.startsWith('0x') || address.length < 20) {
             return res.json("Invalid address.");
         }
 
