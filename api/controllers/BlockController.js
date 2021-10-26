@@ -29,11 +29,6 @@ module.exports = {
 
         const searchArgument = req.params.id;
 
-        console.log(searchArgument);
-        console.log(searchArgument === null);
-        console.log(searchArgument.startsWith('0x'));
-        console.log(isNaN(parseInt(searchArgument)));
-
         // block hash starts with 0x; block number is digits only
         if (searchArgument === null ||
             (!searchArgument.startsWith('0x') && isNaN(parseInt(searchArgument)))) {
